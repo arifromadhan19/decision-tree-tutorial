@@ -28,3 +28,5 @@ model.fit(X_train, y_train)
 y_pred_dt = model.predict(X_test)
 
 print('Akurasi',accuracy_score(y_test, y_pred_dt))
+
+print('haloooo')
